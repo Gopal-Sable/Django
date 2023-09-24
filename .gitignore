@@ -1,0 +1,41 @@
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore static and media files (if not using a dedicated storage service)
+/media/
+/static/
+
+# Ignore virtual environment directories
+venv/
+__pycache__/
+
+# Ignore environment configuration files (if using .env or similar)
+.env
+
+# Ignore secret key files
+*.key
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore system-generated files
+__init__.py
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore migration files if you are using South or Django 1.6+
+/migrations/
+
+# Ignore user-specific settings files
+*.swp
+*~
+.DS_Store
