@@ -34,8 +34,8 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone 
-   cd 
+   git clone https://github.com/Gopal-Sable/Django.git
+   cd Django/artistapi
    ```
 
 2. Create a virtual environment (recommended):
